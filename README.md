@@ -18,11 +18,14 @@ The dataset contains 10,222 images, each associated with one of 120 unique dog b
 
 The Python code in this repository leverages **TensorFlow** and other relevant libraries to implement and evaluate several deep learning models, including:
 
-- InceptionV3
-- ResNet50
-- Artificial Neural Network (ANN)
+- EfficientNetB4
+- InceptionResNetV2
+- MobileNetV2
+- Xception
+- DenseNet201
+- NASNetLarge
 
-The code provides a comprehensive evaluation of each model's performance using various metrics like precision, recall, and F1-score. After evaluation, InceptionV3 is selected as the best-performing model for dog breed classification.
+The code provides a comprehensive evaluation of each model's performance using various metrics like accuracy, loss, precision, recall, and F1-score. After evaluation, NASNetLarge is selected as the best-performing model for dog breed classification.
 
 ## Usage
 
