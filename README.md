@@ -1,6 +1,6 @@
 ### Dog Breed Image Recognition using AI
 
-This repository contains **Python** code for predicting dog breeds from images using advanced deep learning models. After evaluating the performance of multiple models, **Model_Name** is chosen as the best-performing one, thereby using it for the main predictions.
+This repository contains **Python** code for predicting dog breeds from images using advanced deep learning models. After evaluating the performance of multiple models, **NASNetLarge** is chosen as the best-performing one, thereby using it for the main predictions.
 
 ## Motivation
 
@@ -31,12 +31,13 @@ The code provides a comprehensive evaluation of each model's performance using v
 
 ![Static Badge](https://img.shields.io/badge/python-3?logo=python&logoColor=%2336454F&labelColor=%23808080) ![Static Badge](https://img.shields.io/badge/jupyter-lab?logo=jupyter&labelColor=%2336454F)
 
-1. Download this Jupyter Notebook to your local machine.
-2. Install the required dependencies mentioned.
+1. Clone this repository and navigate to the project directory on your local machine.
+2. Install the required dependencies mentioned using the following command:
+    ```pip install -r requirements.txt```
 3. Run the notebook cells step-by-step to:
-    - Overview the data and perform EDA (Exploratory Data Analysis)
+    - Explore the data and perform EDA (Exploratory Data Analysis)
     - Pre-process the data to achieve the required format
-    - Fit the models, evaluate, and compare them
+    - Train and evaluate multiple models, and compare them
     - Use the best-performing model for **dog breed prediction**
 
 You will majorly need the following Python libraries to run this notebook. Use the command below to install them:
@@ -55,9 +56,9 @@ This segment focuses on preparing the image data for model training. It includes
 ### 2) Model Training and Evaluation
 
 This segment involves:
-- Implementing and training multiple deep learning models, including InceptionV3, ResNet50, and ANN
+- Implementing and training multiple deep learning models
 - Evaluating model performance using accuracy, precision, recall, and F1-score
-- Selecting InceptionV3 as the best-performing model
+- Selecting NASNetLarge as the best-performing model
 
 ### In Progress
 
