@@ -51,7 +51,7 @@ Preparation and standardization of the dataset for optimal model training:
 
 ### 2) Model Training and Evaluation
 
-![](images/NN_diag.png){width="597"}
+![](images/NN_diag.png)
 
 Detailed steps for training deep learning models and evaluating their performance:
 
@@ -67,7 +67,7 @@ Detailed steps for training deep learning models and evaluating their performanc
 
 -   **Model Comparisons**
 
-![](images/model_metrics.png){width="479"}
+![](images/model_metrics.png)
 
 1.  **Categorical Accuracy**:
     -   **InceptionResNetV2** leads with 88.26% accuracy, demonstrating its ability to correctly classify a significant portion of dog breeds.
@@ -104,7 +104,7 @@ Overall, **InceptionResNetV2** shows strong, stable performance on validation da
 
 his model processes input images of shape $224 \times 224 \times 3$, and the final output consists of 120 classes, corresponding to different dog breeds. The inclusion of data augmentation and dropout layers helps in regularization, potentially reducing overfitting. The displayed images with predicted breeds and their probabilities provide a visual validation of the model’s effectiveness. The model demonstrates a strong capability to identify various dog breeds with high confidence, indicated by probability scores close to 1.0 for several breeds as seen below.
 
-![](images/test_images.png){width="464"}
+![](images/test_images.png)
 
 ## Conclusion
 
