@@ -51,7 +51,7 @@ Preparation and standardization of the dataset for optimal model training:
 
 ### 2) Model Training and Evaluation
 
-![](images/NN_diag.png)
+![](images/NN_diag.jpeg)
 
 Detailed steps for training deep learning models and evaluating their performance:
 
@@ -86,7 +86,7 @@ Detailed steps for training deep learning models and evaluating their performanc
 
 -   **Best Model : InceptionResnetV2's Performance**
 
-![](images/best_model.png){width="476"}
+![](images/best_model.png)
 
 These plots illustrate the performance of **InceptionResNetV2** over training epochs:
 
