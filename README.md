@@ -99,10 +99,11 @@ These plots illustrate the performance of **InceptionResNetV2** over training ep
 4.  **Recall**: Validation recall stays consistently high (\~0.85), suggesting the model reliably retrieves relevant instances.
 
 Overall, **InceptionResNetV2** shows strong, stable performance on validation data across key metrics, indicating effective generalization.
+We also tried strategic use of ensemble techniques to create a **Stacking Model** with the top 3 performing models - InceptionResNetV2, EfficientNetB4 and NASNetLarge, but that too results in underfitting, which suggests that with further tuning, perhaps through more extensive data augmentation or adjusting the complexity of the top model, the stacking classifier can achieve a balance between bias and variance, enhancing its practical applicability for accurately classifying dog breeds. Hence for the testing set, the best _individual model_, that is, **InceptionResNetV2** is used instead of the stacking model.
 
 ### 4) Testing with Custom Input
 
-his model processes input images of shape $224 \times 224 \times 3$, and the final output consists of 120 classes, corresponding to different dog breeds. The inclusion of data augmentation and dropout layers helps in regularization, potentially reducing overfitting. The displayed images with predicted breeds and their probabilities provide a visual validation of the model’s effectiveness. The model demonstrates a strong capability to identify various dog breeds with high confidence, indicated by probability scores close to 1.0 for several breeds as seen below.
+This model processes input images of shape $224 \times 224 \times 3$, and the final output consists of 120 classes, corresponding to different dog breeds. The inclusion of data augmentation and dropout layers helps in regularization, potentially reducing overfitting. The displayed images with predicted breeds and their probabilities provide a visual validation of the model’s effectiveness. The model demonstrates a strong capability to identify various dog breeds with high confidence, indicated by probability scores close to 1.0 for several breeds as seen below.
 
 ![](images/test_images.png)
 
